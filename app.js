@@ -79,10 +79,10 @@ app.get("/posts/:id", (req, res) => {
     <link rel="stylesheet" href="/style.css" />
   </head>
   <header><img src="/logo.png"/>Wizard News</header>
-  <div> ${post.title}</div>
-  <div> ${post.name}</div>
-  <div> ${post.content}</div>
-  <div> ${post.date}</div>
+  <p> ${post.title}</p>
+  <p> ${post.name}</p>
+  <p> ${post.content}</p>
+  <p> ${post.date}</p>
   <body>
     </html>
     `);
